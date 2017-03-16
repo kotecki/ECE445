@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"c"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"tr",
+				"tr\tTag"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4828,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/myfile.css",
+			"settings":
+			{
+				"buffer_size": 1538,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			],
+			[
+				"Pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/David/Dropbox/HTML/ECE445/index_umaine.html",
+		"/home/David/Dropbox/HTML/BHI_Page/css/myfile.css",
+		"/home/David/Dropbox/HTML/BHI_Page/css/print.css",
+		"/home/David/Dropbox/HTML/BHI_Page/index.html",
+		"/home/David/Dropbox/HTML/DEK_Personal/index.html",
+		"/home/David/Dropbox/HTML/DEK_Personal/css/myfile.css",
+		"/home/David/Dropbox/HTML/DEK_UMaine/css/myfile.css",
+		"/home/David/Dropbox/HTML/DEK_UMaine/DEK_UMaine_ECE_Home_Page.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/js/myjavascript.js",
+		"/home/David/Dropbox/HTML/DEK_UMaine/dek_calendar.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/index.html",
+		"/home/David/Dropbox/HTML/DEKpage/DEK_UMaine_ECE_Home_Page.html",
+		"/home/David/Dropbox/HTML/DEKpage/index.html",
+		"/home/David/Dropbox/CV/PStatement2.tex",
+		"/home/David/Dropbox/Java/MiniMiniMusicApp.java",
+		"/home/David/Dropbox/Java/Hello.java",
+		"/home/David/Dropbox/Java/SimpleGame.java",
+		"/home/David/Dropbox/Java/SimpleG.java",
+		"/home/David/Dropbox/Java/GameHelper.java",
+		"/home/David/Dropbox/Java/SimpleGTestDrive.java",
+		"/home/David/Dropbox/Java/guessgame.java",
+		"/home/David/Dropbox/Java/glauncher.java",
+		"/home/David/Dropbox/Java/player.java",
+		"/home/David/Dropbox/Java/pom.java",
+		"/home/David/Dropbox/Java/test2.java",
+		"/home/David/Dropbox/Java/test.java",
+		"/home/David/Dropbox/Java/checkYourself.java",
+		"/home/David/Dropbox/Python/Informatics/grade_mod.py",
+		"/home/David/Dropbox/Python/Informatics/addtwo_mod.py",
+		"/home/David/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/User/Python3.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/User/python3.sublime-build",
+		"/home/David/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/David/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/David/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/David/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/David/Dropbox/HTML/RIF_Page/main_button_group.html",
+		"/home/David/Dropbox/HTML/RIF_Page/pictures.html",
+		"/home/David/Dropbox/JS/javascript-and-jquery-book-code-0915/c01/js/add-content.js",
+		"/home/David/Dropbox/HTML/RIF_Page/plan.html",
+		"/home/David/Dropbox/HTML/RIF_Page/directions.html",
+		"/home/David/Dropbox/HTML/RIF_Page/contact.html",
+		"/home/David/Dropbox/HTML/RIF_Page/css/myfile.css",
+		"/home/David/Dropbox/HTML/RIF_Page/index.html",
+		"/home/David/Dropbox/JS/javascript-and-jquery-book-code-0915/c01/add-content.html",
+		"/home/David/Dropbox/JS/javascript-and-jquery-book-code-0915/c01/index.html",
+		"/home/David/Dropbox/JS/javascript-and-jquery-book-code-0915/c01/css/c01.css",
+		"/home/David/Dropbox/HTML/MiscPage/index.html",
+		"/home/David/Dropbox/HTML/MiscPage/main_button_group.html",
+		"/home/David/Dropbox/HTML/MiscPage/plan.html",
+		"/home/David/Dropbox/HTML/MiscPage/directions.html",
+		"/home/David/Dropbox/HTML/MiscPage/contact.html",
+		"/home/David/Dropbox/HTML/MiscPage/pictures.html",
+		"/home/David/Dropbox/HTML/RIF_Page/css/myfile_pictures.css",
+		"/home/David/Dropbox/HTML/RIF_Page/test.html",
+		"/home/David/Dropbox/HTML/RIF_Page/test2.html",
+		"/home/David/Dropbox/HTML/RIF_Page/css/test.css",
+		"/home/David/Dropbox/HTML/RIF_Page/images/cord.jpg",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/contact.html",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/directions.html",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/pictures.html",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/plan.html",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/test.html",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/css/myfile_pictures.css",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/demo.html",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/css/myfile.css",
+		"/usr/faculty/kotecki/Dropbox/HTML/RIF_Page/index.html",
+		"/net/faculty/kotecki/Dropbox/HTML/MyPage/mypage.html",
+		"/net/faculty/kotecki/Dropbox/HTML/RIF_Page/index.html",
+		"/net/faculty/kotecki/Dropbox/HTML/RIF_Page/index_orig.html",
+		"/net/faculty/kotecki/Dropbox/HTML/RIF_Page/css/myfile.css",
+		"/net/faculty/kotecki/Dropbox/HTML/RIF_Page/directions.html",
+		"/net/faculty/kotecki/Dropbox/HTML/MyPage/mypage.css",
+		"/net/faculty/kotecki/public_html/ECE209/index.html",
+		"/net/faculty/kotecki/public_html/ECE209/index",
+		"/net/faculty/kotecki/Dropbox/help",
+		"/net/faculty/kotecki/Desktop/Dropbox/Python/script1.py",
+		"/net/faculty/kotecki/Desktop/Dropbox/Python/Dart_pi_mod.py",
+		"/net/faculty/kotecki/Desktop/Dropbox/ECE209_15S/ECE209_2015_Exam1.tex",
+		"/net/faculty/kotecki/Desktop/Dropbox/ECE209_Thevenin.tex",
+		"/net/faculty/kotecki/test.py",
+		"/net/faculty/kotecki/temp.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"border",
+			"python",
+			"command",
+			"build",
+			"python ",
+			">\n",
+			"return",
+			"def"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4052,
+								4052
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/myfile.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1511,
+								1511
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1321.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "ECE445.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

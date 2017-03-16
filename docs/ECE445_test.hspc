@@ -1,0 +1,27 @@
+** NGspice Simulation of 'RingOscillator' (Lib: ECE445)
+
+***** Transistor Model File
+.include '../../../SpiceModels/65nm_bulk.mod'
+
+***** Temperature
+.temp 27
+
+***** Initial Condition
+*.ic v(output)=1.0
+
+***** Parameters
+.global vdd gnd
+*.param nmos_w=200n pmos_w=600n
+
+***** DC Voltage Sources
+Vsup vdd 0 1.0
+
+***** Simulation Options
+.options post=1 delmax=1p relv=1e-6 reli=1e-6 relmos=1e-6 method=gear
+
+***** Simulation Parameters (.tran or .ac or .dc statements)
+*.tran 1p 10n 0 2p
+.dc Vsup 0 1.2 .001
+
+***** Have operating point information sent to output file
+*.op
