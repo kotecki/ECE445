@@ -4,18 +4,6 @@
 		"selected_items":
 		[
 			[
-				"c",
-				"c"
-			],
-			[
-				"col",
-				"color"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
 				"pa",
 				"padding-left"
 			],
@@ -35,26 +23,8 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 4808,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/myfile.css",
-			"settings":
-			{
-				"buffer_size": 1538,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
 		[
@@ -131,17 +101,17 @@
 	},
 	"file_history":
 	[
-		"/home/David/Dropbox/HTML/ECE445/index_umaine.html",
-		"/home/David/Dropbox/HTML/BHI_Page/css/myfile.css",
-		"/home/David/Dropbox/HTML/BHI_Page/css/print.css",
-		"/home/David/Dropbox/HTML/BHI_Page/index.html",
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE444/css/myfile.css",
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE444/index.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/ECE214/index.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/index.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/css/myfile.css",
 		"/home/David/Dropbox/HTML/DEK_Personal/index.html",
 		"/home/David/Dropbox/HTML/DEK_Personal/css/myfile.css",
-		"/home/David/Dropbox/HTML/DEK_UMaine/css/myfile.css",
+		"/home/David/Dropbox/HTML/DEK_Personal/DEK_Personal.sublime-project",
 		"/home/David/Dropbox/HTML/DEK_UMaine/DEK_UMaine_ECE_Home_Page.html",
 		"/home/David/Dropbox/HTML/DEK_UMaine/js/myjavascript.js",
 		"/home/David/Dropbox/HTML/DEK_UMaine/dek_calendar.html",
-		"/home/David/Dropbox/HTML/DEK_UMaine/index.html",
 		"/home/David/Dropbox/HTML/DEKpage/DEK_UMaine_ECE_Home_Page.html",
 		"/home/David/Dropbox/HTML/DEKpage/index.html",
 		"/home/David/Dropbox/CV/PStatement2.tex",
@@ -238,7 +208,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"border",
 			"python",
 			"command",
 			"build",
@@ -263,71 +232,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4808,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2001,
-								2001
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 327.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/myfile.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1538,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1511,
-								1511
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1321.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -371,7 +277,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
-	"project": "ECE445.sublime-project",
+	"project": "index.sublime-project",
 	"replace":
 	{
 		"height": 46.0
@@ -388,12 +294,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Dropbox/HTML/DEK_Personal/DEK_Personal.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
