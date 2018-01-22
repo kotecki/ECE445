@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <title>ECE445 Digital Integrated Circuit Design (circuit simulation) - University of Maine</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   <!-- include myfile.css -->
+   <link href="css/myfile.css" rel="stylesheet">
+   <!-- script for google analytics -->
+   <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-82641964-1', 'auto');
+      ga('send', 'pageview');
+   </script>
+</head>
+
+<body>
+   <div class="container">
+
+      <div class="row">
+         <div class="col-sm-3">
+            <figure>
+               <img id="pict" src="images/nglogo.jpg" alt="ngspice logo" class="img-responsive center-block" width="225px"  />
+               <caption>  </caption>
+            </figure>
+         </div>
+
+         <div class="col-sm-9">
+            <h2><a href="index.html">ECE 445 - Digital Integrated Circuit Design</a></h2>
+            <h3 style="margin-bottom:20px">Circuit Simulation with NGspice</h3>
+            <h4>Department of Electrical and Computer Engineering<br>University of Maine</h4>
+
+         </div>
+      </div>
+
+
+      <div class="row">
+         <hr style="margin-top:7px"/>
+         <div class="col-sm-6">
+            <ul>
+               <li class="circle">NGSPICE Manuals</li>
+               <ul>
+                  <li><a href="http://www.cppsim.com/about_ngspice.html" target="_blank">NGspice Circuit Simulation Software</a></li>
+                  <li><a href="http://www.cppsim.com/download.html" target="_blank">Download Page</a></li>               
+                  <li><a href="http://davidkotecki.com/ECE214/docs/ngspice_cppsim_primer5.pdf" target="_blank">NGspice Primer</a></li>
+                  <li><a href="http://davidkotecki.com/ECE214/docs/ngspice-manual_v26plus.pdf" target="_blank">NGspice V26 Users Manual</a></li>
+                  <li><a href="http://davidkotecki.com/ECE214/docs/ngspice-manual_v27.pdf" target="_blank">NGspice V27 Users Manual</a></li>
+                  <li><a href="http://davidkotecki.com/ECE214/docs/sue2_manual.pdf" target="_blank">Sue2 Schematic Capture Manual</a></li>
+                  <li><a href="http://davidkotecki.com/ECE214/docs/hspice_toolbox.pdf" target="_blank">MATLAB Toolbox Manual</a></li>
+               </ul>       
+            </ul>
+         </div>
+
+         <div class="col-sm-6">
+            <ul>
+               <li class="circle">Installation Material</li>
+               <ul>  
+                  <li><a href="docs/ECE445_2018_NGspice_access.pdf">Instructions to Configure NGspice for ECE 445</a></li>
+                  <li><a href="http://davidkotecki.com/ECE214/docs/ngspice/spinit">NGspice spinit file for Windows</a></li>
+                  <li><a href="http://davidkotecki.com/ECE214/docs/ngspice/spiceinit">NGspice spiceinit file for OSX/Linux</a></li>
+<!--                   <li><a href="docs/ECE342_Sample_Matlab.m">Sample MATLAB .m file for NGspice</a></li>
+                  <li><a href="docs/ECE342_Sample_NGspice.hspc">Sample HSPC file for NGspice</a></li>
+                  <li><a href="docs/ECE342_Lab2.zip">Lab 2 .m file and hspc file</a></li>
+                  <li><a href="docs/ECE342_2017_Lab4_hspc_addition.txt">PSpice compatibility functions for HSPC file</a></li>
+ -->            </ul>
+         </div>
+      </div>
+
+      <div class="row">
+         <hr />
+      </div>
+
+      <div class="row">
+         <div id="foot" class="col-sm-12">
+            <p style="text-align:center"><i>Copyright &#169; <span id="cr_year"></span> David E. Kotecki unless otherwise attributed.</i></p>
+            <script>
+            var year = new Date().getFullYear();
+            var element = document.getElementById("cr_year");
+            element.innerHTML = year;
+            </script>
+
+         </div>
+      </div>
+
+   </div> <!-- closes class container -->
+</body>
+
