@@ -1,0 +1,43 @@
+********************************************************
+************ HSPC file generated for NGspice ***********
+**************** using generate_hspc() ****************
+************** Date: 16-Feb-2018 11:16:57 **************
+********************************************************
+
+*************** Define Device Model Files **************
+.include '../../../SpiceModels/ECE214_models.mod'
+.include '../../../SpiceModels/ECE445_models.mod'
+********************************************************
+
+.temp 27
+**** added line below using 'hspc_addline' function ****
+.tran 1e-11 1e-8 0 2e-12
+**** added line below using 'hspc_addline_continued' function ****
+.temp  27
+
+****************** Simulation Options ******************
+.options post=1 delmax=5p relv=1e-6 reli=1e-6 relmos=1e-6 
++     method=gear
+********************************************************
+
+************************ Globals ***********************
+.global gnd vdd
+********************************************************
+
+********************** Power Rails *********************
+vsupply1 vdd 0 'vdd'
+********************************************************
+
+****************** Initial Conditions ******************
+.ic v(vout)=0
+********************************************************
+
+********************** Parameters **********************
+.param vdd=1.2
+.param mos_l=6.5e-08
+.param nmos_w=1e-07
+.param nmos_m=1
+.param pmos_w=2e-07
+.param pmos_m=1
+********************************************************
+
