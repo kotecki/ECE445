@@ -46,7 +46,7 @@ fprintf(hspcfile, '**** File: %s/%s **** \n', pwd, hspc_filename);
 fprintf(hspcfile, '**** Date: %s **** \n\n', datestr(datetime('now')));
 
 fprintf(hspcfile, '**** Simulation Statement ****\n');
-fprintf(hspcfile, '.tran 5e-10 1.5e-8 0 5e-12 UIC \n\n');
+fprintf(hspcfile, '.tran 5e-10 1.5e-8 0 6e-12 UIC \n\n');
 
 fprintf(hspcfile, '**** Simulation Temperature ****\n');
 temperature = 27;
@@ -122,4 +122,23 @@ dim=[.15, .2, .2, .2];
 annotation('textbox',dim,'String',text,'FitBoxToText','on', 'BackgroundColor','white', ...
     'FaceAlpha',0.85,'fontsize', fs);
 
+%% Plot power and calculate average power
+Fig2 = figure('Name', 'Power', 'Position', [120, 75, 850, 600]);
+
+Power = vdd .* evalsig(data, 'i_vsup');
+skip = 100;
+plot(1e9*time(skip:end), Power(skip:end), 'linewidth', lw) % plot power ignore first 50 points))
+AveragePower = abs(mean(Power(skip:end)));
+grid on;
+set(gca, 'fontsize', fs); % increase font size
+xlabel('Time (ns)', 'fontsize', fs); % x-axis labels
+ylabel('Power (W)', 'fontsize', fs); % y-axis labels
+title([num2str(nstages), ' Stage Ring Oscillator (',num2str(temperature),'^oC)']);
+texta = sprintf('Average Power = %0.4g mW', AveragePower .*1e3);
+dim=[.15, .35, .2, .2];
+annotation('textbox',dim,'String',texta,'FitBoxToText','on', 'BackgroundColor','white', ...
+    'FaceAlpha',0.85,'fontsize', fs);
+
+%% Show transient characteristics on top
+uistack(Fig1, 'top');
 %% end of .m file
