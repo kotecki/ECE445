@@ -39,7 +39,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5939,
+				"buffer_size": 5958,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -48,7 +48,7 @@
 			"file": "ngspice.html",
 			"settings":
 			{
-				"buffer_size": 4623,
+				"buffer_size": 4634,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -281,15 +281,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5939,
+						"buffer_size": 5958,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3322,
-								3322
+								0,
+								0
 							]
 						],
 						"settings":
@@ -312,15 +312,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4623,
+						"buffer_size": 4634,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3192,
-								3192
+								0,
+								0
 							]
 						],
 						"settings":
