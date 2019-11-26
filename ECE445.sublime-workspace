@@ -40,7 +40,6 @@
 			"settings":
 			{
 				"buffer_size": 5875,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -49,21 +48,11 @@
 			"settings":
 			{
 				"buffer_size": 4634,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/myfile.css",
-			"settings":
-			{
-				"buffer_size": 1538,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
 		[
@@ -141,6 +130,10 @@
 	},
 	"file_history":
 	[
+		"/home/David/Dropbox/HTML/Richardson/index.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/ECE445/css/myfile.css",
+		"/home/David/Dropbox/HTML/DEK_UMaine/ECE445/ngspice.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/ECE445/index.html",
 		"/home/David/Dropbox/HTML/ECE445/index_umaine.html",
 		"/home/David/Dropbox/HTML/BHI_Page/css/myfile.css",
 		"/home/David/Dropbox/HTML/BHI_Page/css/print.css",
@@ -234,7 +227,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -248,14 +241,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"border",
-			"python",
-			"command",
-			"build",
-			"python ",
-			">\n",
-			"return",
-			"def"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -273,7 +258,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -289,22 +274,21 @@
 						"selection":
 						[
 							[
-								5312,
-								5312
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 3,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 714.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -331,41 +315,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 212.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/myfile.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1538,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1511,
-								1511
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 454.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -373,7 +326,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -414,7 +367,7 @@
 	"project": "ECE445.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
