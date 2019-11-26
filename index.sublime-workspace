@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"col",
+				"color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"pa",
 				"padding-left"
 			],
@@ -24,7 +32,7 @@
 	"buffers":
 	[
 	],
-	"build_system": "",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -80,7 +88,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 485.0
+		"width": 458.0
 	},
 	"console":
 	{
@@ -101,17 +109,27 @@
 	},
 	"file_history":
 	[
-		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE444/css/myfile.css",
-		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE444/index.html",
-		"/home/David/Dropbox/HTML/DEK_UMaine/ECE214/index.html",
-		"/home/David/Dropbox/HTML/DEK_UMaine/index.html",
-		"/home/David/Dropbox/HTML/DEK_UMaine/css/myfile.css",
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE342/equipment.html",
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE342/datasheets.html",
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE342/ngspice.html",
+		"/Users/Kotecki/Dropbox/HTML/DEK_UMaine/ECE342/index.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/ECE209/index.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/ECE209/css/myfile.css",
+		"/net/faculty/kotecki/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/David/Dropbox/HTML/ECE209/index_umaine.html",
+		"/home/David/Dropbox/HTML/ECE445/css/myfile.css",
+		"/home/David/Dropbox/HTML/ECE445/index.html",
+		"/home/David/Dropbox/HTML/ECE445/index_umaine.html",
+		"/home/David/Dropbox/HTML/BHI_Page/css/myfile.css",
+		"/home/David/Dropbox/HTML/BHI_Page/css/print.css",
+		"/home/David/Dropbox/HTML/BHI_Page/index.html",
 		"/home/David/Dropbox/HTML/DEK_Personal/index.html",
 		"/home/David/Dropbox/HTML/DEK_Personal/css/myfile.css",
-		"/home/David/Dropbox/HTML/DEK_Personal/DEK_Personal.sublime-project",
+		"/home/David/Dropbox/HTML/DEK_UMaine/css/myfile.css",
 		"/home/David/Dropbox/HTML/DEK_UMaine/DEK_UMaine_ECE_Home_Page.html",
 		"/home/David/Dropbox/HTML/DEK_UMaine/js/myjavascript.js",
 		"/home/David/Dropbox/HTML/DEK_UMaine/dek_calendar.html",
+		"/home/David/Dropbox/HTML/DEK_UMaine/index.html",
 		"/home/David/Dropbox/HTML/DEKpage/DEK_UMaine_ECE_Home_Page.html",
 		"/home/David/Dropbox/HTML/DEKpage/index.html",
 		"/home/David/Dropbox/CV/PStatement2.tex",
@@ -194,7 +212,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -208,6 +226,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"blank",
+			"border",
 			"python",
 			"command",
 			"build",
@@ -239,7 +259,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -280,7 +300,7 @@
 	"project": "index.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -294,16 +314,12 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"~/Dropbox/HTML/DEK_Personal/DEK_Personal.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{

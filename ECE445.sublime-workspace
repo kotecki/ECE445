@@ -39,7 +39,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5875,
+				"buffer_size": 6264,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +48,8 @@
 			"file": "ngspice.html",
 			"settings":
 			{
-				"buffer_size": 4634,
+				"buffer_size": 5020,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -258,7 +260,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -267,45 +269,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5875,
+						"buffer_size": 6264,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "ngspice.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4634,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								1259,
+								1581
 							]
 						],
 						"settings":
@@ -319,6 +291,36 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ngspice.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1578,
+								1578
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
