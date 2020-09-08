@@ -1,6 +1,6 @@
 %% Matlab m-file for ECE 445 NMOS Analysis
 
-%% Copyright (c) 2019 by David E. Kotecki. All rights reserved.
+%% Copyright (c) 2020 by David E. Kotecki. All rights reserved.
 
 % Redistribution and use in source and binary forms, with or without
 % modification, are permitted provided that the following conditions are
