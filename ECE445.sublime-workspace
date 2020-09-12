@@ -39,7 +39,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6892,
+				"buffer_size": 6565,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -48,7 +48,7 @@
 			"file": "ngspice.html",
 			"settings":
 			{
-				"buffer_size": 5020,
+				"buffer_size": 5631,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -260,7 +260,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -269,15 +269,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6892,
+						"buffer_size": 6565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3109,
-								3109
+								4103,
+								4103
 							]
 						],
 						"settings":
@@ -287,10 +287,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -299,15 +299,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5020,
+						"buffer_size": 5631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1578,
-								1578
+								5092,
+								5092
 							]
 						],
 						"settings":
@@ -317,10 +317,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 387.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
